@@ -1,0 +1,55 @@
+/* Collection 1 */
+:root {
+  /* Tokens */
+  /* color */
+  --background: #fcfbf5;
+  --blue: #4d6787;
+  --darker-blue: #354d6b;
+  --darker-pink: #f373b2;
+  --darker-yellow: #ffdd3c;
+  --draker-green: #3ebe8c;
+  --green: #7dccad;
+  --lighter-green: #7dccad99;
+  --note-page: #e8e8e5;
+  --off-white: #c9e3d9;
+  --pink: #f599c6;
+  --yellow: #ffea88;
+  /* number */
+  --main-content-header-padding: 0.5rem;
+  --font-size-font-xs: 0.75rem;
+  --font-size-font-sm: 0.875rem;
+  --font-size-font-base: 1rem;
+  --font-size-font-lg: 1.125rem;
+  --font-size-font-xl: 1.5rem;
+  --font-size-font-2xl: 2rem;
+  --font-size-font-3xl: 3rem;
+  --icon-size-xs: 1rem;
+  --icon-size-xs: 1rem;
+  --icon-size-sm: 1.25rem;
+  --icon-size-sm: 1.25rem;
+  --icon-size-md: 1.5rem;
+  --icon-size-md: 1.5rem;
+  --icon-size-lg: 2rem;
+  --icon-size-lg: 2rem;
+  --icon-size-xl: 3rem;
+  --icon-size-xl: 3rem;
+  --layout-page-margin-mobile: 1rem;
+  --layout-page-margin-desktop: 1.5rem;
+  --layout-header-height: 6.75rem;
+  --layout-mobile-frame: 24.375rem;
+  --layout-container-max: 83.75rem;
+  --layout-desktop-frame: 90rem;
+  --radius-radius-sm: 0.25rem;
+  --radius-radius-md: 0.5rem;
+  --radius-radius-lg: 1rem;
+  --radius-radius-full: 624.9375rem;
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2rem;
+  --spacing-space-2xl: 3rem;
+  --spacing-space-3xl: 4rem;
+  /* string */
+  --font: Google Sans Flex;
+}
