@@ -46,5 +46,5 @@
   --spacing-space-2xl: 3rem;
   --spacing-space-3xl: 4rem;
   /* string */
-  --font: Google Sans Flex;
+  --main-font: "Google Sans Flex", sans-serif;
 }
