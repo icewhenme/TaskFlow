@@ -2,12 +2,14 @@ body {
     color: var(--blue);
     font-family: var(--main-font);
     margin: 0;
+    background-color: var(--background);
 }
 header {
     background-color: var(--lighter-green);
 }
 section {
     margin-bottom: var(--space-lg);
+    max-width: var(--layout-container-max);
 }
 .navigation {
     display: flex;
@@ -41,6 +43,43 @@ section {
     align-items: center;
     justify-content: center;
 }
+.box {
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-md);
+    border-radius: var(--radius-lg);
+    text-align: center;
+    background: var(--note-page);
+    gap: var(--space-sm);
+}
+.box p {
+    margin: 0;
+}
+.checkbox_line {
+    font-size: var(--font-size-font-xl);
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.checkbox_line li{
+    margin: var(--space-sm) 0;
+}
+.checkbox_line label {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+}
+.checkbox_line input[type="checkbox"]{
+    width: 1.5rem;
+    height: 1.5rem;
+    accent-color: var(--green);
+    cursor: pointer;
+}
+.text h1{
+    font-weight: 800;
+    font-size: var(--font-size-font-3xl);
+}
 .wavy_underline {
     display: inline;
     color: var(--darker-pink);
@@ -57,4 +96,9 @@ section {
     font-weight: bold;
     background-color: var(--pink);
     cursor: pointer;
+}
+.autoplay_animation {
+    display: block;
+    width: 100vw;
+    height: auto;
 }
