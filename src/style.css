@@ -1,11 +1,25 @@
 body {
+    color: var(--blue);
     font-family: var(--main-font);
+    margin: 0;
+}
+header {
+    background-color: var(--lighter-green);
+}
+section {
+    margin-bottom: var(--space-lg);
 }
 .navigation {
     display: flex;
     max-width: var(--layout-container-max);
     justify-content: space-between;
     margin-inline: auto;
+/* need to add margin for small windows */
+    align-items: center;
+    justify-items: center;
+}
+.left_nav {
+    display: flex;
     align-items: center;
     justify-items: center;
 }
@@ -15,8 +29,32 @@ body {
     display: flex;
     align-items: center;
     justify-items: center;
-    gap: var(--spacing-space-lg);
+    gap: var(--space-lg);
 }
 .navigation ul li {
     list-style-type: none;
+}
+.content {
+    display: flex;
+    margin-inline: auto;
+    max-width: var(--layout-container-max);
+    align-items: center;
+    justify-content: center;
+}
+.wavy_underline {
+    display: inline;
+    color: var(--darker-pink);
+    border-bottom: 0.2rem dashed var(--darker-pink);
+}
+.icon_link{
+    display: inline-flex;
+    line-height: 0;
+}
+.pink_button {
+    padding: var(--space-sm);
+    border: 0;
+    border-radius: var(--radius-md);
+    font-weight: bold;
+    background-color: var(--pink);
+    cursor: pointer;
 }
