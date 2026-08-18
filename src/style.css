@@ -7,9 +7,22 @@ body {
 header {
     background-color: var(--lighter-green);
 }
+main {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
 section {
     margin-bottom: var(--space-lg);
     max-width: var(--layout-container-max);
+}
+button {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    font-family: var(--main-font);
+    color: var(--darker-blue);
+    text-transform: uppercase;
 }
 .navigation {
     display: flex;
@@ -17,11 +30,6 @@ section {
     justify-content: space-between;
     margin-inline: auto;
 /* need to add margin for small windows */
-    align-items: center;
-    justify-items: center;
-}
-.left_nav {
-    display: flex;
     align-items: center;
     justify-items: center;
 }
@@ -36,12 +44,34 @@ section {
 .navigation ul li {
     list-style-type: none;
 }
+#footer ul{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.left_nav {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.nav_links a{
+    text-decoration: none;
+    color: var(--blue);
+}
 .content {
     display: flex;
+    flex-direction: column;
     margin-inline: auto;
     max-width: var(--layout-container-max);
     align-items: center;
     justify-content: center;
+}
+.text h1{
+    font-weight: 800;
+    font-size: var(--font-size-font-3xl);
+    padding: var(--space-lg);
+}
+.todo_list {
+    Padding: var(--space-xl);
 }
 .box {
     display: flex;
@@ -76,10 +106,6 @@ section {
     accent-color: var(--green);
     cursor: pointer;
 }
-.text h1{
-    font-weight: 800;
-    font-size: var(--font-size-font-3xl);
-}
 .wavy_underline {
     display: inline;
     color: var(--darker-pink);
@@ -97,8 +123,21 @@ section {
     background-color: var(--pink);
     cursor: pointer;
 }
+.yellow_button {
+    padding: var(--space-sm);
+    border: 0;
+    border-radius: var(--radius-md);
+    font-weight: bold;
+    background-color: var(--yellow);
+    cursor: pointer;
+}
 .autoplay_animation {
     display: block;
     width: 100vw;
     height: auto;
 }
+footer {
+    background: linear-gradient(to top, var(--green), white);
+    display: flex;
+    flex-direction: column;
+    margin: auto;}
